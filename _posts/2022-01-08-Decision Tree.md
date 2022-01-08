@@ -122,7 +122,7 @@ title:  "Decision Tree"
       |         | rainy    | 2    | 3    |   5    |
       |         |          |      |      | **14** |
 
-      $E(S, outlook) = \frac{5}{14}*E(3,2) + \frac{4}{14}*E(4,0) + \frac{5}{14}*E(2,3)​$
+      $E(S, outlook) = \frac{5}{14}\times E(3,2) + \frac{4}{14}\times E(4,0) + \frac{5}{14}\times E(2,3)$
 
       ​                           $= \frac{5}{14}[-\frac{3}{5}log(\frac{3}{5})-\frac{2}{5}log(\frac{2}{5})]+ \frac{4}{14}[0] + \frac{5}{14}[\frac{2}{5}log(\frac{2}{5})-\frac{3}{5}log(\frac{3}{5})] = 0.693$
 

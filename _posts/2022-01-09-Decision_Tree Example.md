@@ -21,22 +21,22 @@ author_profile: false
       text-align: center;
       border: 0px !important;
     }
-
+    
     table.dataframe th {
       text-align: center;
       font-weight: bold;
       padding: 8px;
     }
-
+    
     table.dataframe td {
       text-align: center;
       padding: 8px;
     }
-
+    
     table.dataframe tr:hover {
       background: #b8d1f3; 
     }
-
+    
     .output_prompt {
       overflow: auto;
       font-size: 0.9rem;
@@ -126,11 +126,11 @@ data.head()
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
+    
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -217,21 +217,21 @@ data.head()
       <button class="colab-df-convert" onclick="convertToInteractive('df-74328efa-37a6-4d99-b333-041fc74266c6')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
-        
+
   <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
        width="24px">
     <path d="M0 0h24v24H0V0z" fill="none"/>
     <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
   </svg>
       </button>
-      
+
   <style>
     .colab-df-container {
       display:flex;
       flex-wrap:wrap;
       gap: 12px;
     }
-
+    
     .colab-df-convert {
       background-color: #E8F0FE;
       border: none;
@@ -243,18 +243,18 @@ data.head()
       padding: 0 0 0 0;
       width: 32px;
     }
-
+    
     .colab-df-convert:hover {
       background-color: #E2EBFA;
       box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
       fill: #174EA6;
     }
-
+    
     [theme=dark] .colab-df-convert {
       background-color: #3B4455;
       fill: #D2E3FC;
     }
-
+    
     [theme=dark] .colab-df-convert:hover {
       background-color: #434B5C;
       box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
@@ -268,14 +268,14 @@ data.head()
           document.querySelector('#df-74328efa-37a6-4d99-b333-041fc74266c6 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
-
+    
         async function convertToInteractive(key) {
           const element = document.querySelector('#df-74328efa-37a6-4d99-b333-041fc74266c6');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
           if (!dataTable) return;
-
+    
           const docLinkHtml = 'Like what you see? Visit the ' +
             '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
             + ' to learn more about interactive tables.';
@@ -289,7 +289,7 @@ data.head()
       </script>
     </div>
   </div>
-  
+
 
 
 > Data Feature Information
@@ -418,11 +418,11 @@ group.apply(lambda x : x.describe())[feature]
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
+    
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -639,21 +639,21 @@ group.apply(lambda x : x.describe())[feature]
       <button class="colab-df-convert" onclick="convertToInteractive('df-08702486-9d49-4fbc-b72c-7089bafb66af')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
-        
+
   <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
        width="24px">
     <path d="M0 0h24v24H0V0z" fill="none"/>
     <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
   </svg>
       </button>
-      
+
   <style>
     .colab-df-container {
       display:flex;
       flex-wrap:wrap;
       gap: 12px;
     }
-
+    
     .colab-df-convert {
       background-color: #E8F0FE;
       border: none;
@@ -665,18 +665,18 @@ group.apply(lambda x : x.describe())[feature]
       padding: 0 0 0 0;
       width: 32px;
     }
-
+    
     .colab-df-convert:hover {
       background-color: #E2EBFA;
       box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
       fill: #174EA6;
     }
-
+    
     [theme=dark] .colab-df-convert {
       background-color: #3B4455;
       fill: #D2E3FC;
     }
-
+    
     [theme=dark] .colab-df-convert:hover {
       background-color: #434B5C;
       box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
@@ -690,14 +690,14 @@ group.apply(lambda x : x.describe())[feature]
           document.querySelector('#df-08702486-9d49-4fbc-b72c-7089bafb66af button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
-
+    
         async function convertToInteractive(key) {
           const element = document.querySelector('#df-08702486-9d49-4fbc-b72c-7089bafb66af');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
           if (!dataTable) return;
-
+    
           const docLinkHtml = 'Like what you see? Visit the ' +
             '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
             + ' to learn more about interactive tables.';
@@ -711,7 +711,7 @@ group.apply(lambda x : x.describe())[feature]
       </script>
     </div>
   </div>
-  
+
 
 
 
@@ -727,11 +727,11 @@ group.mean()
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
+    
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -790,21 +790,21 @@ group.mean()
       <button class="colab-df-convert" onclick="convertToInteractive('df-ae0a0173-665a-4e15-a363-869646c3ce9a')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
-        
+
   <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
        width="24px">
     <path d="M0 0h24v24H0V0z" fill="none"/>
     <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
   </svg>
       </button>
-      
+
   <style>
     .colab-df-container {
       display:flex;
       flex-wrap:wrap;
       gap: 12px;
     }
-
+    
     .colab-df-convert {
       background-color: #E8F0FE;
       border: none;
@@ -816,18 +816,18 @@ group.mean()
       padding: 0 0 0 0;
       width: 32px;
     }
-
+    
     .colab-df-convert:hover {
       background-color: #E2EBFA;
       box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
       fill: #174EA6;
     }
-
+    
     [theme=dark] .colab-df-convert {
       background-color: #3B4455;
       fill: #D2E3FC;
     }
-
+    
     [theme=dark] .colab-df-convert:hover {
       background-color: #434B5C;
       box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
@@ -841,14 +841,14 @@ group.mean()
           document.querySelector('#df-ae0a0173-665a-4e15-a363-869646c3ce9a button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
-
+    
         async function convertToInteractive(key) {
           const element = document.querySelector('#df-ae0a0173-665a-4e15-a363-869646c3ce9a');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
           if (!dataTable) return;
-
+    
           const docLinkHtml = 'Like what you see? Visit the ' +
             '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
             + ' to learn more about interactive tables.';
@@ -862,7 +862,7 @@ group.mean()
       </script>
     </div>
   </div>
-  
+
 
 
 > 당뇨병이 있는 사람은 기본적으로 모두 다 높게 나오는 편이다. 특히 혈당과 인슐린 수치, BMI에서 큰 차이를 보인다.
@@ -889,11 +889,11 @@ x_train.head(3)
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
-
+    
     .dataframe tbody tr th {
         vertical-align: top;
     }
-
+    
     .dataframe thead th {
         text-align: right;
     }
@@ -952,21 +952,21 @@ x_train.head(3)
       <button class="colab-df-convert" onclick="convertToInteractive('df-493b3358-38fb-41fa-9c18-3e735fc09528')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
-        
+
   <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
        width="24px">
     <path d="M0 0h24v24H0V0z" fill="none"/>
     <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
   </svg>
       </button>
-      
+
   <style>
     .colab-df-container {
       display:flex;
       flex-wrap:wrap;
       gap: 12px;
     }
-
+    
     .colab-df-convert {
       background-color: #E8F0FE;
       border: none;
@@ -978,18 +978,18 @@ x_train.head(3)
       padding: 0 0 0 0;
       width: 32px;
     }
-
+    
     .colab-df-convert:hover {
       background-color: #E2EBFA;
       box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
       fill: #174EA6;
     }
-
+    
     [theme=dark] .colab-df-convert {
       background-color: #3B4455;
       fill: #D2E3FC;
     }
-
+    
     [theme=dark] .colab-df-convert:hover {
       background-color: #434B5C;
       box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
@@ -1003,14 +1003,14 @@ x_train.head(3)
           document.querySelector('#df-493b3358-38fb-41fa-9c18-3e735fc09528 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
-
+    
         async function convertToInteractive(key) {
           const element = document.querySelector('#df-493b3358-38fb-41fa-9c18-3e735fc09528');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
           if (!dataTable) return;
-
+    
           const docLinkHtml = 'Like what you see? Visit the ' +
             '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
             + ' to learn more about interactive tables.';
@@ -1024,7 +1024,7 @@ x_train.head(3)
       </script>
     </div>
   </div>
-  
+
 
 
 
@@ -1167,49 +1167,11 @@ graph = graphviz.Source(dot_data, format="png")
 graph
 ```
 
-<pre>
-<graphviz.files.Source at 0x7f2b72b37650>
-</pre>
+![output_47_0](../images/output_47_0.svg)
 
 ```python
-!pip install dtreeviz
+# !pip install dtreeviz
 ```
-
-<pre>
-Collecting dtreeviz
-  Downloading dtreeviz-1.3.2.tar.gz (62 kB)
-[?25l[K     |█████▎                          | 10 kB 23.0 MB/s eta 0:00:01[K     |██████████▌                     | 20 kB 29.0 MB/s eta 0:00:01[K     |███████████████▉                | 30 kB 14.2 MB/s eta 0:00:01[K     |█████████████████████           | 40 kB 10.4 MB/s eta 0:00:01[K     |██████████████████████████▍     | 51 kB 4.6 MB/s eta 0:00:01[K     |███████████████████████████████▋| 61 kB 5.0 MB/s eta 0:00:01[K     |████████████████████████████████| 62 kB 696 kB/s 
-[?25hRequirement already satisfied: graphviz>=0.9 in /usr/local/lib/python3.7/dist-packages (from dtreeviz) (0.10.1)
-Requirement already satisfied: pandas in /usr/local/lib/python3.7/dist-packages (from dtreeviz) (1.1.5)
-Requirement already satisfied: numpy in /usr/local/lib/python3.7/dist-packages (from dtreeviz) (1.19.5)
-Requirement already satisfied: scikit-learn in /usr/local/lib/python3.7/dist-packages (from dtreeviz) (1.0.1)
-Requirement already satisfied: matplotlib in /usr/local/lib/python3.7/dist-packages (from dtreeviz) (3.2.2)
-Collecting colour
-  Downloading colour-0.1.5-py2.py3-none-any.whl (23 kB)
-Requirement already satisfied: pytest in /usr/local/lib/python3.7/dist-packages (from dtreeviz) (3.6.4)
-Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /usr/local/lib/python3.7/dist-packages (from matplotlib->dtreeviz) (3.0.6)
-Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.7/dist-packages (from matplotlib->dtreeviz) (0.11.0)
-Requirement already satisfied: python-dateutil>=2.1 in /usr/local/lib/python3.7/dist-packages (from matplotlib->dtreeviz) (2.8.2)
-Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/lib/python3.7/dist-packages (from matplotlib->dtreeviz) (1.3.2)
-Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.7/dist-packages (from python-dateutil>=2.1->matplotlib->dtreeviz) (1.15.0)
-Requirement already satisfied: pytz>=2017.2 in /usr/local/lib/python3.7/dist-packages (from pandas->dtreeviz) (2018.9)
-Requirement already satisfied: atomicwrites>=1.0 in /usr/local/lib/python3.7/dist-packages (from pytest->dtreeviz) (1.4.0)
-Requirement already satisfied: pluggy<0.8,>=0.5 in /usr/local/lib/python3.7/dist-packages (from pytest->dtreeviz) (0.7.1)
-Requirement already satisfied: setuptools in /usr/local/lib/python3.7/dist-packages (from pytest->dtreeviz) (57.4.0)
-Requirement already satisfied: py>=1.5.0 in /usr/local/lib/python3.7/dist-packages (from pytest->dtreeviz) (1.11.0)
-Requirement already satisfied: more-itertools>=4.0.0 in /usr/local/lib/python3.7/dist-packages (from pytest->dtreeviz) (8.12.0)
-Requirement already satisfied: attrs>=17.4.0 in /usr/local/lib/python3.7/dist-packages (from pytest->dtreeviz) (21.2.0)
-Requirement already satisfied: joblib>=0.11 in /usr/local/lib/python3.7/dist-packages (from scikit-learn->dtreeviz) (1.1.0)
-Requirement already satisfied: scipy>=1.1.0 in /usr/local/lib/python3.7/dist-packages (from scikit-learn->dtreeviz) (1.4.1)
-Requirement already satisfied: threadpoolctl>=2.0.0 in /usr/local/lib/python3.7/dist-packages (from scikit-learn->dtreeviz) (3.0.0)
-Building wheels for collected packages: dtreeviz
-  Building wheel for dtreeviz (setup.py) ... [?25l[?25hdone
-  Created wheel for dtreeviz: filename=dtreeviz-1.3.2-py3-none-any.whl size=67936 sha256=c10df72ec824ee26f9e725a93682f4f26c8a25a77f39f77aeaf6c06590058b8d
-  Stored in directory: /root/.cache/pip/wheels/9d/29/a1/f2ad20de79875e749330d5c6234fc5f517991fcaa23d7a3d0f
-Successfully built dtreeviz
-Installing collected packages: colour, dtreeviz
-Successfully installed colour-0.1.5 dtreeviz-1.3.2
-</pre>
 
 ```python
 from dtreeviz.trees import dtreeviz
@@ -1222,19 +1184,7 @@ viz = dtreeviz(clf, x_train, y_train,
 viz
 ```
 
-<pre>
-findfont: Font family ['Arial'] not found. Falling back to DejaVu Sans.
-/usr/local/lib/python3.7/dist-packages/sklearn/base.py:446: UserWarning: X does not have valid feature names, but DecisionTreeClassifier was fitted with feature names
-  "X does not have valid feature names, but"
-/usr/local/lib/python3.7/dist-packages/numpy/core/_asarray.py:83: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray
-  return array(a, dtype, copy=False, order=order)
-findfont: Font family ['Arial'] not found. Falling back to DejaVu Sans.
-findfont: Font family ['Arial'] not found. Falling back to DejaVu Sans.
-findfont: Font family ['Arial'] not found. Falling back to DejaVu Sans.
-</pre>
-<pre>
-<dtreeviz.trees.DTreeViz at 0x7f2b71a37f90>
-</pre>
+![output_49_1](../images/output_49_1.svg)
 # Decision Tree 가지치기
 
 
@@ -1335,9 +1285,7 @@ graph = graphviz.Source(dot_data, format="png")
 graph
 ```
 
-<pre>
-<graphviz.files.Source at 0x7f2b6ae7a150>
-</pre>
+![output_59_0](../images/output_59_0.svg)
 # Summary
 
 

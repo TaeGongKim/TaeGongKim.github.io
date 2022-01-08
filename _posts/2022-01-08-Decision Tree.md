@@ -186,9 +186,9 @@ title:  "Decision Tree"
 
     - Temperature
 
-      $E(sunny, Temperature) = \frac{2}{5}*E(0,2) + \frac{2}{5}*E(1,1) + \frac{1}{5}*E(1,0)=\frac{2}{5}=0.4$
+      $E(sunny, Temperature) = \frac{2}{5}\times E(0,2) + \frac{2}{5}\times E(1,1) + \frac{1}{5}\times E(1,0)=\frac{2}{5}=0.4$
 
-      $IG(sunny, Temperature) = 0.971–0.4 =0.571$
+      $IG(sunny, Temperature) = 0.971–0.4 =0.571​$
 
     - Humidity
 

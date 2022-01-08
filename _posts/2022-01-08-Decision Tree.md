@@ -188,7 +188,7 @@ title:  "Decision Tree"
 
       $E(sunny, Temperature) = \frac{2}{5}\times E(0,2) + \frac{2}{5}\times E(1,1) + \frac{1}{5}\times E(1,0)=\frac{2}{5}=0.4$
 
-      $IG(sunny, Temperature) = 0.971–0.4 =0.571​$
+      $IG(sunny, Temperature) = 0.971–0.4 =0.571$
 
     - Humidity
 
@@ -235,3 +235,4 @@ title:  "Decision Tree"
 ## Reference :
 
 - [Decision Tree Algorithm With Hands-On Example](https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38)
+

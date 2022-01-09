@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Decision Tree Example3"
+title:  "Decision Tree Example"
 categories: coding
 tag: [python, Machine Learning, Decision Tree]
 toc: true
